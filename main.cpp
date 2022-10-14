@@ -38,10 +38,11 @@ private:
     int inches;
 public:
 //    构造函数的重载
-    Distence() {
-        feet = 0;
-        inches = 0;
-    }
+// 主要演示下面运算符重载，下列代码展示C++中构造函数可以通过参数表列重载，可以注释掉
+//    Distence() {
+//        feet = 0;
+//        inches = 0;
+//    }
 
     Distence(int f, int i) {
         feet = f;
