@@ -49,7 +49,8 @@ public:
         inches = i;
     }
 
-//    对“取相反数”符号“-”定义运算符重载
+// 对“取相反数”符号“-”定义运算符重载
+// Distence可以理解为函数的返回值类型：是Distence对象
     Distence operator-() {
         feet = -feet;
         inches = -inches;
