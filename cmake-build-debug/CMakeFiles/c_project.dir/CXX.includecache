@@ -9,4 +9,16 @@
 D:/c-project/main.cpp
 iostream
 -
+struct.h
+D:/c-project/struct.h
+
+D:/c-project/struct.h
+iostream
+-
+
+D:/c-project/usingBeforeDeclare.cpp
+cstring
+-
+iostream
+-
 

@@ -83,6 +83,15 @@
 		<Unit filename="D:/c-project/main.cpp">
 			<Option target="c_project"/>
 		</Unit>
+		<Unit filename="D:/c-project/struct.cpp">
+			<Option target="c_project"/>
+		</Unit>
+		<Unit filename="D:/c-project/struct.h">
+			<Option target="c_project"/>
+		</Unit>
+		<Unit filename="D:/c-project/usingBeforeDeclare.cpp">
+			<Option target="c_project"/>
+		</Unit>
 		<Unit filename="D:/c-project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

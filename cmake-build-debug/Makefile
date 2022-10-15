@@ -169,6 +169,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+struct.obj: struct.cpp.obj
+
+.PHONY : struct.obj
+
+# target to build an object file
+struct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/struct.cpp.obj
+.PHONY : struct.cpp.obj
+
+struct.i: struct.cpp.i
+
+.PHONY : struct.i
+
+# target to preprocess a source file
+struct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/struct.cpp.i
+.PHONY : struct.cpp.i
+
+struct.s: struct.cpp.s
+
+.PHONY : struct.s
+
+# target to generate assembly for a file
+struct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/struct.cpp.s
+.PHONY : struct.cpp.s
+
+usingBeforeDeclare.obj: usingBeforeDeclare.cpp.obj
+
+.PHONY : usingBeforeDeclare.obj
+
+# target to build an object file
+usingBeforeDeclare.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/usingBeforeDeclare.cpp.obj
+.PHONY : usingBeforeDeclare.cpp.obj
+
+usingBeforeDeclare.i: usingBeforeDeclare.cpp.i
+
+.PHONY : usingBeforeDeclare.i
+
+# target to preprocess a source file
+usingBeforeDeclare.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/usingBeforeDeclare.cpp.i
+.PHONY : usingBeforeDeclare.cpp.i
+
+usingBeforeDeclare.s: usingBeforeDeclare.cpp.s
+
+.PHONY : usingBeforeDeclare.s
+
+# target to generate assembly for a file
+usingBeforeDeclare.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/usingBeforeDeclare.cpp.s
+.PHONY : usingBeforeDeclare.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +235,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... struct.obj
+	@echo ... struct.i
+	@echo ... struct.s
+	@echo ... usingBeforeDeclare.obj
+	@echo ... usingBeforeDeclare.i
+	@echo ... usingBeforeDeclare.s
 .PHONY : help
 
 

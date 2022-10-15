@@ -1,4 +1,5 @@
 #include <iostream>
+#include "struct.h"
 
 using namespace std;
 
@@ -65,10 +66,32 @@ public:
 };
 
 int main() {
+//  方法2：不需要使用头文件，调用前声明一下需要引入的其他文件中的函数(usingBeforeDeclare.cpp文件)
+    int max(int a, int b);
     Distence D1(2, 3), D2(-8, -2);
     -D1;
     D1.anitDisplay();
     -D2;
     D2.anitDisplay();
+    //    结构体指针的输出，来自文件struct.cpp的printPoint()函数
+    printPoint();
+//    调用前声明法：usingBeforeDeclare.cpp文件中的函数
+    cout << "输出的结果是:" << max(32, 16) << endl;
+    cout << "输出的结果是:" << max(0, 17) << endl;
     return 0;
 }
+/*
+ * @ 如何在一个cpp文件中引入另外一个cpp文件
+ * 两种方法
+ * 见文档：https://blog.csdn.net/weixin_43350361/article/details/106455331
+ * 1.添加头文件法 struct.cpp
+ * a.struct.h
+ * b.只声明函数，不需要函数实现；
+ * c.在main函数所在文件中，引用#include "struct.h"
+ *
+ * 2.调用前声明法
+ *
+ *
+ *
+ *
+ * */
