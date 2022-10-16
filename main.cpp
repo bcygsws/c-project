@@ -68,6 +68,8 @@ public:
 int main() {
 //  方法2：不需要使用头文件，调用前声明一下需要引入的其他文件中的函数(usingBeforeDeclare.cpp文件)
     int max(int a, int b);
+//   方法2：不使用头文件，先声明ins_otherfile.cpp中的函数addMen()再使用
+    void addMen();
     Distence D1(2, 3), D2(-8, -2);
     -D1;
     D1.anitDisplay();
@@ -78,6 +80,8 @@ int main() {
 //    调用前声明法：usingBeforeDeclare.cpp文件中的函数
     cout << "输出的结果是:" << max(32, 16) << endl;
     cout << "输出的结果是:" << max(0, 17) << endl;
+    // 调用ins_otherfile.cpp文件中的而函数前，已经声明了
+    addMen();
     return 0;
 }
 /*
