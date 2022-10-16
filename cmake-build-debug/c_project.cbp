@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/c-project/ins_otherfile.cpp">
+			<Option target="c_project"/>
+		</Unit>
 		<Unit filename="D:/c-project/main.cpp">
 			<Option target="c_project"/>
 		</Unit>

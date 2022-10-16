@@ -90,6 +90,9 @@ int main() {
  * c.在main函数所在文件中，引用#include "struct.h"
  *
  * 2.调用前声明法
+ * 不用使用头文件
+ * a.只需要调用前声明，例如：int max(int a, int b);
+ * b.然后使用 max(12,45)
  *
  *
  *

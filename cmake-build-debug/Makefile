@@ -142,6 +142,33 @@ c_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/build
 .PHONY : c_project/fast
 
+ins_otherfile.obj: ins_otherfile.cpp.obj
+
+.PHONY : ins_otherfile.obj
+
+# target to build an object file
+ins_otherfile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/ins_otherfile.cpp.obj
+.PHONY : ins_otherfile.cpp.obj
+
+ins_otherfile.i: ins_otherfile.cpp.i
+
+.PHONY : ins_otherfile.i
+
+# target to preprocess a source file
+ins_otherfile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/ins_otherfile.cpp.i
+.PHONY : ins_otherfile.cpp.i
+
+ins_otherfile.s: ins_otherfile.cpp.s
+
+.PHONY : ins_otherfile.s
+
+# target to generate assembly for a file
+ins_otherfile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/ins_otherfile.cpp.s
+.PHONY : ins_otherfile.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -232,6 +259,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c_project
+	@echo ... ins_otherfile.obj
+	@echo ... ins_otherfile.i
+	@echo ... ins_otherfile.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
