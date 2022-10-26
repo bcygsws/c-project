@@ -8,5 +8,7 @@ CMakeFiles/c_project.dir/main.cpp.obj: ../struct.h
 
 CMakeFiles/c_project.dir/struct.cpp.obj: ../struct.cpp
 
+CMakeFiles/c_project.dir/typedef_struct.cpp.obj: ../typedef_struct.cpp
+
 CMakeFiles/c_project.dir/usingBeforeDeclare.cpp.obj: ../usingBeforeDeclare.cpp
 

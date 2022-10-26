@@ -223,6 +223,33 @@ struct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/struct.cpp.s
 .PHONY : struct.cpp.s
 
+typedef_struct.obj: typedef_struct.cpp.obj
+
+.PHONY : typedef_struct.obj
+
+# target to build an object file
+typedef_struct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/typedef_struct.cpp.obj
+.PHONY : typedef_struct.cpp.obj
+
+typedef_struct.i: typedef_struct.cpp.i
+
+.PHONY : typedef_struct.i
+
+# target to preprocess a source file
+typedef_struct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/typedef_struct.cpp.i
+.PHONY : typedef_struct.cpp.i
+
+typedef_struct.s: typedef_struct.cpp.s
+
+.PHONY : typedef_struct.s
+
+# target to generate assembly for a file
+typedef_struct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c_project.dir\build.make CMakeFiles/c_project.dir/typedef_struct.cpp.s
+.PHONY : typedef_struct.cpp.s
+
 usingBeforeDeclare.obj: usingBeforeDeclare.cpp.obj
 
 .PHONY : usingBeforeDeclare.obj
@@ -268,6 +295,9 @@ help:
 	@echo ... struct.obj
 	@echo ... struct.i
 	@echo ... struct.s
+	@echo ... typedef_struct.obj
+	@echo ... typedef_struct.i
+	@echo ... typedef_struct.s
 	@echo ... usingBeforeDeclare.obj
 	@echo ... usingBeforeDeclare.i
 	@echo ... usingBeforeDeclare.s

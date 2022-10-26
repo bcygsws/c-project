@@ -70,6 +70,8 @@ int main() {
     int max(int a, int b);
 //   方法2：不使用头文件，先声明ins_otherfile.cpp中的函数addMen()再使用
     void addMen();
+//    方法2：不用头文件,调用typedef_struct.cpp文件中的addCats()方法，先声明一下
+    void addCats();
     Distence D1(2, 3), D2(-8, -2);
     -D1;
     D1.anitDisplay();
@@ -82,6 +84,8 @@ int main() {
     cout << "输出的结果是:" << max(0, 17) << endl;
     // 调用ins_otherfile.cpp文件中的而函数前，已经声明了
     addMen();
+//   调用typedef_struct.cpp中的addCats()方法
+    addCats();
     return 0;
 }
 /*

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/c-project/ins_otherfile.cpp" "D:/c-project/cmake-build-debug/CMakeFiles/c_project.dir/ins_otherfile.cpp.obj"
   "D:/c-project/main.cpp" "D:/c-project/cmake-build-debug/CMakeFiles/c_project.dir/main.cpp.obj"
   "D:/c-project/struct.cpp" "D:/c-project/cmake-build-debug/CMakeFiles/c_project.dir/struct.cpp.obj"
+  "D:/c-project/typedef_struct.cpp" "D:/c-project/cmake-build-debug/CMakeFiles/c_project.dir/typedef_struct.cpp.obj"
   "D:/c-project/usingBeforeDeclare.cpp" "D:/c-project/cmake-build-debug/CMakeFiles/c_project.dir/usingBeforeDeclare.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

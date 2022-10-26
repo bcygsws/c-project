@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_project.dir/ins_otherfile.cpp.obj"
   "CMakeFiles/c_project.dir/main.cpp.obj"
   "CMakeFiles/c_project.dir/struct.cpp.obj"
+  "CMakeFiles/c_project.dir/typedef_struct.cpp.obj"
   "CMakeFiles/c_project.dir/usingBeforeDeclare.cpp.obj"
   "c_project.exe"
   "c_project.exe.manifest"

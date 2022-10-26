@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/c-project/ins_otherfile.cpp
-iostream
--
-cstring
--
-
 D:/c-project/main.cpp
 iostream
 -
