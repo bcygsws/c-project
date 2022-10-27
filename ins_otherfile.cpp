@@ -39,4 +39,12 @@ void addMen() {
     printMen(Men1);
     printMen(Men2);
 }
-
+/**
+ * @ 比较ins_otherfile.cpp和typedef_struct.cpp中语法
+ * typedef可以简化变量的定义
+ * type long int star1,star2;
+ * star1 x=7;
+ * star2 y=8;
+ *
+ *
+ * */
