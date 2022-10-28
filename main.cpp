@@ -79,13 +79,19 @@ int main() {
     D2.anitDisplay();
     //    结构体指针的输出，来自文件struct.cpp的printPoint()函数
     printPoint();
-//    调用前声明法：usingBeforeDeclare.cpp文件中的函数
+    // 调用前声明法：usingBeforeDeclare.cpp文件中的函数
     cout << "输出的结果是:" << max(32, 16) << endl;
     cout << "输出的结果是:" << max(0, 17) << endl;
     // 调用ins_otherfile.cpp文件中的而函数前，已经声明了
     addMen();
-//   调用typedef_struct.cpp中的addCats()方法
+    // 调用typedef_struct.cpp中的addCats()方法
     addCats();
+    // typedef简化变量的定义
+    typedef long int num1, num2;
+   // num1和num2就相当于自己定义了一种类型一样
+    num1 x = 8;
+    num2 y = 9;
+    cout << "x=" << x << "\ny=" << y << endl;
     return 0;
 }
 /*
