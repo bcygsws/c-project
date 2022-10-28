@@ -2,8 +2,13 @@
 #include "struct.h"
 
 using namespace std;
-
-// C++中的函数重载和运算符重载，链接：https://www.runoob.com/cplusplus/cpp-overloading.html
+/*
+ * C++的函数重载和运算符重载
+ * 链接：https://www.runoob.com/cplusplus/cpp-overloading.html
+ * Java支持函数重载，不支持运算符重载
+ *
+ *
+ * */
 
 // a.函数的重载，参数的类型、个数和顺序，不能仅仅通过返回类型来重载函数
 //class PrintData {
@@ -77,7 +82,8 @@ int main() {
     D1.anitDisplay();
     -D2;
     D2.anitDisplay();
-    //    结构体指针的输出，来自文件struct.cpp的printPoint()函数
+    // 方法一、使用头文件，在当前类中引用其他文件中的函数；
+    // 功能：结构体指针的输出，来自文件struct.cpp的printPoint()函数
     printPoint();
     // 调用前声明法：usingBeforeDeclare.cpp文件中的函数
     cout << "输出的结果是:" << max(32, 16) << endl;
@@ -88,7 +94,7 @@ int main() {
     addCats();
     // typedef简化变量的定义
     typedef long int num1, num2;
-   // num1和num2就相当于自己定义了一种类型一样
+    // num1和num2就相当于自己定义了一种类型一样
     num1 x = 8;
     num2 y = 9;
     cout << "x=" << x << "\ny=" << y << endl;
